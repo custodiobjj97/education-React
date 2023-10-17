@@ -1,0 +1,24 @@
+.banner{
+    padding: 120px 12px;
+    background: linear-gradient(to right, rgba(0,0,0,.3), rgba(0,0,0.3)), url('../../../public/images/awrapper.webp') no-repeat center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    color: #fff;
+}
+
+.box-banner{
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-size: 2rem;
+}
+
+
+@media (min-width:1042px){
+    .banner{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+   
+}

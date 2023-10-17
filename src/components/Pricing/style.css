@@ -1,0 +1,56 @@
+.pricing{
+    padding: 120px 12px;
+
+}
+
+.pricing .subtitle{
+    color: var(---color-secundary);
+    display: block;
+    text-align: center;
+}
+
+.pricing h2{
+    font-size: 2.66rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.plan-prices{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.price{
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: var(---color-primary);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+}
+.price span{
+    font-weight: bold;
+    font-size: 1.55rem;
+}
+
+.price h3{
+    font-size: 3rem;
+    color: var(---color-secundary);
+}
+
+.price .btn-price{
+    padding: .90rem 4rem;
+    border-radius: 5px;
+    background-color: var(---color-secundary);
+    color: #fff;
+}
+
+@media (min-width:1012px){
+    .plan-prices{
+        grid-template-columns: repeat(4,1fr);
+        gap: 30px;
+    }
+}
